@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Document metadata -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Landing Page using HTML, CSS & Javascript</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <!-- Remixicon CDN for icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  
+  <!-- Animate on Scroll CSS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header section -->
+  <header class="container header">
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="logo">
+        <h2>Sachin.</h2>
+      </div>
+
+      <!-- Navigation menu -->
+      <div class="nav_menu" id="nav_menu">
+        <button class="close_btn" id="close_btn">
+          <i class="ri-close-fill"></i>
+        </button>
+
+        <ul class="nav_menu_list">
+          <li class="nav_menu_item">
+            <a href="#" class="nav_menu_link">account</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="#" class="nav_menu_link">about</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="#" class="nav_menu_link">service</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="#" class="nav_menu_link">contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Toggle button for mobile menu -->
+      <button class="toggle_btn" id="toggle_btn">
+        <i class="ri-menu-line"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main content section -->
+  <section class="wrapper">
+    <div class="container">
+      <div class="grid-cols-2">
+        <div class="grid-item-1">
+          <h1 class="main-heading">
+            Welcome to <span>sachin.</span>
+            <br>
+            Develop anything.
+          </h1>
+          <p class="info-text">
+            Build a beautiful, modern website with flexible components built
+            from scratch.
+          </p>
+
+          <!-- Buttons -->
+          <div class="btn_wrapper">
+            <button class="btn view_more_btn">
+              view all pages <i class="ri-arrow-right-line"></i>
+            </button>
+
+            <button class="btn documentation_btn">documentation</button>
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="grid-item-2">
+          <div class="team_img_wrapper">
+            <img src="./img/team.svg" alt="team-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features section -->
+  <section class="wrapper">
+    <div class="container" data-aos="fade-up" data-aos-duration="1000">
+      <div class="grid-cols-3">
+        <!-- Feature 1 -->
+        <div class="grid-col-item">
+          <div class="icon">
+            <!-- SVG icon code -->
+          </div>
+          <div class="featured_info">
+            <span class="title">Built for developers</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              ratione facilis animi voluptas exercitationem molestiae.
+            </p>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="grid-col-item">
+          <div class="icon">
+            <!-- SVG icon code -->
+          </div>
+          <div class="featured_info">
+            <span class="title">Designed to be modern</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              ipsum esse corrupti. Quo, labore debitis!
+            </p>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="grid-col-item">
+          <div class="icon">
+            <!-- SVG icon code -->
+          </div>
+          <div class="featured_info">
+            <span class="title">Documentation for everything</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              nostrum voluptate totam ipsa corrupti vero!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer></footer>
+
+  <!-- JavaScript imports -->
+  <!-- Animate on Scroll JS CDN -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="./script.js" defer></script>
+</body>
+</html>
